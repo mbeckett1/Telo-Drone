@@ -50,8 +50,18 @@ def square():
         sendmsg('forward 100')
         sendmsg('ccw 90')
 
+def flipSquare():
+    sendmsg('flip f')
+    sendmsg('forward 50')
+    sendmsg('flip r')
+    sendmsg('right 50')
+    sendmsg('flip b')
+    sendmsg('back 50')
+    sendmsg('flip l')
+    sendmsg('left 50')
 
-print("\nMark Beckett")
+
+    print("\nMark Beckett")
 print("Program Name: Tello Drone Training School")
 print("Date: 11.9.2020")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
@@ -68,7 +78,10 @@ try:
         sendmsg('takeoff')
 
         #Call the Square Function
-        square()
+        #square()
+
+        #Call the Flip Square Function
+        flipSquare()
 
         sendmsg('land')
 
