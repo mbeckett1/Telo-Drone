@@ -43,7 +43,23 @@ recvThread.start()
 
 # CREATE FUNCTIONS HERE....
 
-# Make a Square Function
+#Mission through the first hoop
+def firstHoop():
+
+
+#Mission through the second hoop
+def secondHoop():
+
+
+#Mission through the third hoop
+def thirdHoop():
+
+
+#Mission through the fourth hoop
+def fourthHoop():
+
+
+#Make a Square Function
 def square():
     sendmsg('up 50')
     for i in range(4)
