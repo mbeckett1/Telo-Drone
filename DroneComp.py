@@ -46,7 +46,7 @@ recvThread.start()
 #Mission through the first hoop
 def firstHoop():
     #sendmsg('takeoff')
-    sendmsg('up 150')
+    sendmsg('up 50')
     sendmsg('forward 200')
     
 
@@ -63,7 +63,7 @@ def firstHoop():
 #def fourthHoop():
 
 
-    print("\nMark Beckett")
+print("\nMark Beckett")
 print("Program Name: Tello Drone Training School")
 print("Date: 11.9.2020")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
