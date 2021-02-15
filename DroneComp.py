@@ -46,9 +46,20 @@ recvThread.start()
 #Mission through the first hoop
 def firstHoop():
     #sendmsg('takeoff')
-    sendmsg('up 50')
+    sendmsg('up 45')
     sendmsg('forward 200')
-    
+
+def secondHoop():
+    sendmsg('go 215 0 55 75')
+
+def thirdHoop():
+    sendmsg('ccw 90')
+    sendmsg('forward 285')
+    sendmsg('ccw 90')
+
+def fourthHoop():
+    sendmsg('go 215 0 -30 75')
+
 
 
 #Mission through the second hoop
@@ -81,7 +92,9 @@ try:
 
         firstHoop()
 
-        #secondHoop()
+        secondHoop()
+
+        thirdHoop()
 
         sendmsg('land')
 
