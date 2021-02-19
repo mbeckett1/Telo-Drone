@@ -53,7 +53,8 @@ def secondHoop():
     sendmsg('go 215 0 55 75')
 
 def thirdHoop():
-    sendmsg('curve 435 90 0 435 180 0 75')
+    #sendmsg('left 300')
+    sendmsg('curve 230 85 180 80 80 56 55')
     '''sendmsg('ccw 90')
     sendmsg('forward 285')
     sendmsg('ccw 90')'''
@@ -97,7 +98,7 @@ try:
 
         thirdHoop()
 
-        fourthHoop()
+        #fourthHoop()
 
         sendmsg('land')
 
